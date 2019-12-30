@@ -14,4 +14,5 @@ This build running on MacOs X
     1. Run and Install Clover_v2.5k_r5058.pkg with EFI 
     2. Replace Clover folder in EFI partition
     3. Trackpad: Move CodecCommander.kext in Trackpad/LE and KextBeast to Desktop, run KextBeast select L/E
-    4. Enjoy
+    4: Enable HiDPi https://github.com/xzhih/one-key-hidpi
+    5. Enjoy
