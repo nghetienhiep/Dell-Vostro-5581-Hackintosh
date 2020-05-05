@@ -8,11 +8,28 @@ This build running on MacOs X
     2.CPU:            Intel Core i7-8565U
     3.Graphic:        Intel UHD620
     4.Wifi:           REPLACED WITH DW1560 (AirDrop and Handoff Working perfectly)
+    ------------------------------------------------------------------------------
+    Display: OK
+    Audio ALC 236/Audio HDMI: OK
+    Battery: OK
+    Type-C: OK
+    HDMI: OK
+    FN Hotkey: OK
+    Trackpad: OK
+    Sleep: OK
+    IMES/Facetime: OK
 
-# Step to install
+# Step to install(Clover)
 
     1. Run and Install Clover_v2.5k_r5058.pkg with EFI 
     2. Replace Clover folder in EFI partition
     3. Trackpad: Move CodecCommander.kext in Trackpad/LE and KextBeast to Desktop, run KextBeast select L/E
     4: Enable HiDPi https://github.com/xzhih/one-key-hidpi
     5. Enjoy
+
+# Step to install(Opencore)
+
+    1. Mount EFI folder 
+    2. Copy OC vs Boot to EFI
+    3. Gen SMBIOS https://github.com/corpnewt/GenSMBIOS
+    4. Enjoy
