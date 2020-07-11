@@ -171,16 +171,6 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>TPDM == Zero to TPDM != Zero in TPD0</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>QkZJoB6TVFBETQCk</data>
-					<key>Replace</key>
-					<data>QkZJoB+Sk1RQRE0ApA==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
 					<string>Fix 300-series RTC Bug</string>
 					<key>Disabled</key>
 					<false/>
@@ -226,7 +216,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>keepsyms=1 applbkl=0 dart=0 -igfxnohdmi -cdfon</string>
+		<string>keepsyms=1 alcid=54 debug=0x100 igfxonln=1</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultVolume</key>
@@ -259,20 +249,11 @@
 		<dict>
 			<key>AFGLowPowerState</key>
 			<false/>
-			<key>Inject</key>
-			<integer>28</integer>
 			<key>ResetHDA</key>
 			<true/>
 		</dict>
 		<key>Properties</key>
 		<dict>
-			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
-			<dict>
-				<key>device-id</key>
-				<data>cKEAAA==</data>
-				<key>layout-id</key>
-				<integer>54</integer>
-			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
@@ -566,17 +547,17 @@
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>03/07/2020</string>
+		<string>05/13/2020</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MBP152.88Z.F000.B00.2003070250</string>
+		<string>MBP152.88Z.F000.B00.2005132218</string>
 		<key>Board-ID</key>
 		<string>Mac-827FB448E656EC26</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02802104CDJH4RJC</string>
+		<string>C02919100GUJH4R1F</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -588,7 +569,7 @@
 		<key>ChassisType</key>
 		<string>0x09</string>
 		<key>EfiVersion</key>
-		<string>1037.100.355.0.0</string>
+		<string>1037.120.87.0.0</string>
 		<key>Family</key>
 		<string>MacBook Pro</string>
 		<key>FirmwareFeatures</key>
@@ -602,13 +583,13 @@
 		<key>Mobile</key>
 		<true/>
 		<key>PlatformFeature</key>
-		<string>0x02</string>
+		<string>0x32</string>
 		<key>ProductName</key>
 		<string>MacBookPro15,2</string>
 		<key>SerialNumber</key>
-		<string>C02W30HKJHCC</string>
+		<string>C02YPXYTJHCC</string>
 		<key>SmUUID</key>
-		<string>4BA22749-329D-492D-AB56-6D0D680A0B25</string>
+		<string>8057A3EF-10D2-46E8-BED8-466C32B455D9</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
