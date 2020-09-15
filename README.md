@@ -11,6 +11,7 @@ This build running on MacOs X
     ------------------------------------------------------------------------------
     Display: OK
     Audio ALC 236/Audio HDMI: OK
+    Headphone fix: https://www.elitemacx86.com/threads/fix-audio-distortion-when-using-headphones-on-laptops.185/
     Battery: OK
     Type-C: OK
     HDMI: OK
@@ -24,8 +25,8 @@ This build running on MacOs X
     1. Run and Install Clover_v2.5k_r5058.pkg with EFI 
     2. Replace Clover folder in EFI partition
     3. Trackpad: Move CodecCommander.kext in Trackpad/LE and KextBeast to Desktop, run KextBeast select L/E
-    4: Enable HiDPi https://github.com/xzhih/one-key-hidpi
-    5. Enjoy
+    4. Enjoy
+    5(Optional): Enable HiDPi https://github.com/xzhih/one-key-hidpi
 
 # Step to install(Opencore)
 
