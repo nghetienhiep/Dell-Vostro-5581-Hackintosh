@@ -11,7 +11,7 @@ This build running on MacOs X
     ------------------------------------------------------------------------------
     Display: OK
     Audio ALC 236/Audio HDMI: OK
-    Headphone fix: https://www.elitemacx86.com/threads/fix-audio-distortion-when-using-headphones-on-laptops.185/
+    Headphone fix: [Link](https://www.elitemacx86.com/threads/fix-audio-distortion-when-using-headphones-on-laptops.185/)
     Battery: OK
     Type-C: OK
     HDMI: OK
@@ -26,11 +26,11 @@ This build running on MacOs X
     2. Replace Clover folder in EFI partition
     3. Trackpad: Move CodecCommander.kext in Trackpad/LE and KextBeast to Desktop, run KextBeast select L/E
     4. Enjoy
-    5(Optional): Enable HiDPi https://github.com/xzhih/one-key-hidpi
+    5(Optional): Enable HiDPi [Link](https://github.com/xzhih/one-key-hidpi)
 
 # Step to install(Opencore)
 
     1. Mount EFI folder 
     2. Copy OC vs Boot to EFI
-    3. Gen SMBIOS https://github.com/corpnewt/GenSMBIOS
+    3. Gen SMBIOS [Link](https://github.com/corpnewt/GenSMBIOS)
     4. Enjoy
