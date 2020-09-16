@@ -14,7 +14,6 @@ This build running on MacOs X
 <ul>
   <li>Display: OK</li>
   <li>Audio ALC 236/Audio HDMI: OK</li>
-  <li>Headphone fix: <a href="https://www.elitemacx86.com/threads/fix-audio-distortion-when-using-headphones-on-laptops.185/" target="_blank">Link</a></li>
   <li>Battery: OK</li>
   <li>Type-C: OK</li>
   <li>HDMI: OK</li>
