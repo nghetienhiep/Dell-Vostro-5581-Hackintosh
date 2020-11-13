@@ -256,7 +256,6 @@
 			<string>Preboot</string>
 			<string>Recovery</string>
 			<string>ZOTACWINUSB</string>
-			<string>Install macOS Mojave</string>
 		</array>
 		<key>PlayAsync</key>
 		<false/>
