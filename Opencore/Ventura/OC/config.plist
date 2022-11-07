@@ -132,7 +132,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-UIAC.aml</string>
+				<string>SSDT-USB-FixShutdown.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -140,7 +140,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-USB-FixShutdown.aml</string>
+				<string>SSDT-USBX.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -345,6 +345,42 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
+				<string>USBToolBox.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/USBToolBox</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>UTBMap.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string></string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
 				<string>BrcmPatchRAM3.kext</string>
 				<key>Comment</key>
 				<string>BrcmPatchRAM3.kext</string>
@@ -406,24 +442,6 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/RealtekRTL8111</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>USBPorts.kext</string>
-				<key>Comment</key>
-				<string>USBPorts.kext</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string></string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -511,7 +529,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>ExecutablePath</key>
 				<string></string>
 				<key>MaxKernel</key>
@@ -1200,9 +1218,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro15,4</string>
 			<key>SystemSerialNumber</key>
-			<string>FVFZ2BZEL40Y</string>
+			<string>FVFYM076L40Y</string>
 			<key>SystemUUID</key>
-			<string>6D424C06-D7C5-409E-A449-4D712AA0A5B2</string>
+			<string>B4156063-C467-4CAC-83AD-4DADD9D4AA39</string>
 		</dict>
 		<key>Generic</key>
 		<dict>
@@ -1211,7 +1229,7 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>FVF928403J90000JC</string>
+			<string>FVF917902J90000JC</string>
 			<key>ProcessorType</key>
 			<integer>1793</integer>
 			<key>ROM</key>
@@ -1223,9 +1241,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro15,4</string>
 			<key>SystemSerialNumber</key>
-			<string>FVFZ2BZEL40Y</string>
+			<string>FVFYM076L40Y</string>
 			<key>SystemUUID</key>
-			<string>6D424C06-D7C5-409E-A449-4D712AA0A5B2</string>
+			<string>B4156063-C467-4CAC-83AD-4DADD9D4AA39</string>
 		</dict>
 		<key>PlatformNVRAM</key>
 		<dict>
@@ -1236,13 +1254,13 @@
 			<key>FirmwareFeaturesMask</key>
 			<data>P/+f/wgAAAA=</data>
 			<key>MLB</key>
-			<string>FVF928403J90000JC</string>
+			<string>FVF917902J90000JC</string>
 			<key>ROM</key>
 			<data>ESIzRFVm</data>
 			<key>SystemSerialNumber</key>
-			<string>FVFZ2BZEL40Y</string>
+			<string>FVFYM076L40Y</string>
 			<key>SystemUUID</key>
-			<string>6D424C06-D7C5-409E-A449-4D712AA0A5B2</string>
+			<string>B4156063-C467-4CAC-83AD-4DADD9D4AA39</string>
 		</dict>
 		<key>SMBIOS</key>
 		<dict>
@@ -1261,7 +1279,7 @@
 			<key>BoardProduct</key>
 			<string>Mac-53FDB3D8DB8CA971</string>
 			<key>BoardSerialNumber</key>
-			<string>FVF928403J90000JC</string>
+			<string>FVF917902J90000JC</string>
 			<key>BoardType</key>
 			<integer>10</integer>
 			<key>BoardVersion</key>
@@ -1271,7 +1289,7 @@
 			<key>ChassisManufacturer</key>
 			<string></string>
 			<key>ChassisSerialNumber</key>
-			<string>FVFZ2BZEL40Y</string>
+			<string>FVFYM076L40Y</string>
 			<key>ChassisType</key>
 			<integer>9</integer>
 			<key>ChassisVersion</key>
@@ -1295,9 +1313,9 @@
 			<key>SystemSKUNumber</key>
 			<string>System SKU#</string>
 			<key>SystemSerialNumber</key>
-			<string>FVFZ2BZEL40Y</string>
+			<string>FVFYM076L40Y</string>
 			<key>SystemUUID</key>
-			<string>6D424C06-D7C5-409E-A449-4D712AA0A5B2</string>
+			<string>B4156063-C467-4CAC-83AD-4DADD9D4AA39</string>
 			<key>SystemVersion</key>
 			<string>1.0</string>
 		</dict>
