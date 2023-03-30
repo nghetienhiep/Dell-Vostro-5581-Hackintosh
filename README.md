@@ -1,3 +1,9 @@
+<style>
+r { color: Red }
+</style>
+
+# <r>Dự án đã dừng lại năm 2023. Tôi đã không sử dụng thiết bị này nữa.</r>
+
 # Dell Vostro 5581
 
 This build running on MacOs X
