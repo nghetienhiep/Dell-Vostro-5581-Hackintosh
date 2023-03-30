@@ -1,4 +1,4 @@
-# <span style="color: red;">Dự án đã dừng lại năm 2023. Tôi đã không sử dụng thiết bị này nữa.</span>
+# The project stopped in 2023. I did not use the device anymore.
 
 # Dell Vostro 5581
 
