@@ -1,8 +1,4 @@
-<style>
-r { color: Red }
-</style>
-
-# <r>Dự án đã dừng lại năm 2023. Tôi đã không sử dụng thiết bị này nữa.</r>
+# <span style="color: red;">Dự án đã dừng lại năm 2023. Tôi đã không sử dụng thiết bị này nữa.</span>
 
 # Dell Vostro 5581
 
